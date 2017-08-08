@@ -4,9 +4,17 @@
   "description": "Github project",
   "main": "index.js",
   "scripts": {
+    "dev" : "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
